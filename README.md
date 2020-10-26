@@ -1,5 +1,6 @@
 # Module-5-Challenge
 
+
 Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
