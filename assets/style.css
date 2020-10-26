@@ -1,1 +1,68 @@
-#
+header{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:50px 0;
+    border-bottom: 10px solid #000;
+}
+
+#planner{
+    display:block;
+    width:90%;
+    padding:25px 0;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#planner .hour_row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #817d7d;
+
+}
+
+#planner .hour_row .hour{
+    flex:0.2;
+
+}
+
+#planner .hour_row .event{
+    flex:0.8;
+    
+}
+
+#planner .hour_row .event form{
+    display:flex;
+    align-items: center;
+    width:100%;
+
+}
+
+#planner .hour_row .event form textarea{
+    flex:0.8
+}
+
+#planner .hour_row .event form button{
+    height:34px;
+    width:60px;
+    line-height:17px;
+    background: dodgerblue;
+    color:white;
+    border-color: dodgerblue;
+    border-radius: 0 5px 5px 0;
+
+}
+
+.grey{
+    background:#f2f2f2;
+}
+
+.green{
+    background: rgba(0, 155, 0, 0.25);
+}
+
+.red{
+    background: rgba(155, 0, 0, 0.25);
+}
